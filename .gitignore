@@ -1,0 +1,17 @@
+node_modules/
+*.cache
+coverage
+/dist/**
+
+# dependencies
+src/components/App.js
+src/components/Header.js
+src/components/Footer.js
+src/hooks/useSomething.js
+src/setupTests.js
+
+# exposes
+App
+Header
+Footer
+useSomething
