@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Application</title>
+    <link rel="stylesheet" href="%PUBLIC_URL%/style.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        useEffect(() => {
+            const Header = require("../src/components/Header.js").Header;
+            const Footer = require("../src/components/Footer.js").Footer;
+            const App = require("../src/components/App.js").App;
+            const useSomething = require("../src/hooks/useSomething.js").useSomething;
+        }, []);
+    </script>
+    <script src="%PUBLIC_URL%/index.js"></script>
+</body>
+</html>
