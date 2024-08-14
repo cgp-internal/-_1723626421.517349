@@ -1,0 +1,28 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "Package metadata and dependencies",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/react": "11.2.5",
+    "jest": "27.0.6"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./components/App": "./src/components/App.js",
+    "./components/Header": "./src/components/Header.js",
+    "./components/Footer": "./src/components/Footer.js",
+    "./hooks/useSomething": "./src/hooks/useSomething.js"
+  },
+  "main": "src/index.js"
+}
